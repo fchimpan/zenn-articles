@@ -148,6 +148,7 @@ _本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 =======
 Four Keys の Elite チームに向かうためには...？という目線で、チーム体制が刻々と変化するという固有の事情も踏まえて、E2E テスト改善をしていくために QA チームがチームトポロジーの用語で言うイネーブリングチームとして機能するようになるための取り組みが語られています。
@@ -163,6 +164,10 @@ _本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
 =======
 <<<<<<< HEAD
 >>>>>>> 0ef97fa (feat: Productivity Weekly(2024/01/17) by uta8a)
+||||||| parent of f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+<<<<<<< HEAD
+>>>>>>> f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
 ||||||| parent of 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
 =======
 Four Keys の Elite チームに向かうためには...？という目線で、チーム体制が刻々と変化するという固有の事情も踏まえて、E2E テスト改善をしていくために QA チームがチームトポロジーの用語で言うイネーブリングチームとして機能するようになるための取り組みが語られています。
@@ -199,6 +204,10 @@ _本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
 =======
 ||||||| parent of 2803987 (feat: Productivity Weekly(2024/01/17) by uta8a)
 =======
+||||||| parent of 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+<<<<<<< HEAD
+>>>>>>> 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
 ||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 =======
 Four Keys の Elite チームに向かうためには...？という目線で、チーム体制が刻々と変化するという固有の事情も踏まえて、E2E テスト改善をしていくために QA チームがチームトポロジーの用語で言うイネーブリングチームとして機能するようになるための取り組みが語られています。
@@ -208,8 +217,28 @@ Four Keys の文脈では CI/CD 高速化等のビルドパイプラインの改
 _本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
 
 >>>>>>> 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
+<<<<<<< HEAD
 >>>>>>> 2803987 (feat: Productivity Weekly(2024/01/17) by uta8a)
+<<<<<<< HEAD
 >>>>>>> 0ef97fa (feat: Productivity Weekly(2024/01/17) by uta8a)
+||||||| parent of f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+||||||| parent of 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+||||||| parent of 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+||||||| parent of 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+Four Keys の Elite チームに向かうためには...？という目線で、チーム体制が刻々と変化するという固有の事情も踏まえて、E2E テスト改善をしていくために QA チームがチームトポロジーの用語で言うイネーブリングチームとして機能するようになるための取り組みが語られています。
+
+Four Keys の文脈では CI/CD 高速化等のビルドパイプラインの改善の話が出てくることが多いので、品質保証観点からの記事は珍しいと感じました。組織の話、テストマネジメントツールの導入など取り組みの全体像が見えて面白かったです。
+
+_本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
+
+>>>>>>> 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
+>>>>>>> 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
+>>>>>>> 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
+>>>>>>> f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
 ## 実録レガシーコード改善 / Working with Legacy Code: the True Record - Speaker Deck
 https://speakerdeck.com/twada/working-with-legacy-code-the-true-record
 
@@ -246,6 +275,7 @@ https://zenn.dev/jambowrd/articles/3ee00f61c0b827
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 ||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 =======
@@ -261,6 +291,10 @@ https://zenn.dev/jambowrd/articles/3ee00f61c0b827
 =======
 <<<<<<< HEAD
 >>>>>>> 0ef97fa (feat: Productivity Weekly(2024/01/17) by uta8a)
+||||||| parent of f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+<<<<<<< HEAD
+>>>>>>> f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
 eBPF という、カーネルに手を加えることなくカーネルランドで安全に処理を実行できる仮想マシンを用いたアイデアは近年いくつか登場しています。主に Observability や Security 用途が有名ですが、この記事では eBPF を用いた自動テストツール Keploy の紹介がされています。
 
 元記事を書かれた方が [epli2/keploy-minimal-example: A sample project for Keploy](https://github.com/epli2/keploy-minimal-example) というミニマルな構成のサンプルを用意してくださっていたので、私も Ubuntu マシン上でなぞってみました。
@@ -308,8 +342,30 @@ https://zenn.dev/muo/articles/ffa37618c0427f
 =======
 <<<<<<< HEAD
 >>>>>>> 2803987 (feat: Productivity Weekly(2024/01/17) by uta8a)
+||||||| parent of 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+<<<<<<< HEAD
+>>>>>>> 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
 ||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 ||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+||||||| parent of 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+<<<<<<< HEAD
+>>>>>>> 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
+eBPF という、カーネルに手を加えることなくカーネルランドで安全に処理を実行できる仮想マシンを用いたアイデアは近年いくつか登場しています。主に Observability や Security 用途が有名ですが、この記事では eBPF を用いた自動テストツール Keploy の紹介がされています。
+
+元記事を書かれた方が [epli2/keploy-minimal-example: A sample project for Keploy](https://github.com/epli2/keploy-minimal-example) というミニマルな構成のサンプルを用意してくださっていたので、私も Ubuntu マシン上でなぞってみました。
+
+実際に Keploy を立ち上げて curl でエンドポイントを叩くだけで録画されたかのようにリクエストが YAML に記録されて、それを元にテストを行うことができます。動作確認用の curl 集のようなものがある場合は、Keploy を使えばコードを書くことなくテストケース化できるので、テストを追加する際のハードルが低くなって良いと感じました。
+
+_本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
+
+<<<<<<< HEAD
+>>>>>>> 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
+## whisper.cppがいつのまにかmacOS用文字起こしの決定版になっていた
+https://zenn.dev/muo/articles/ffa37618c0427f
+
 =======
 eBPF という、カーネルに手を加えることなくカーネルランドで安全に処理を実行できる仮想マシンを用いたアイデアは近年いくつか登場しています。主に Observability や Security 用途が有名ですが、この記事では eBPF を用いた自動テストツール Keploy の紹介がされています。
 
@@ -319,7 +375,20 @@ eBPF という、カーネルに手を加えることなくカーネルランド
 
 _本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
 
+## whisper.cppがいつのまにかmacOS用文字起こしの決定版になっていた
+https://zenn.dev/muo/articles/ffa37618c0427f
+
 >>>>>>> 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
+<<<<<<< HEAD
+>>>>>>> 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
+||||||| parent of 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+||||||| parent of 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+||||||| parent of 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+<<<<<<< HEAD
+||||||| parent of 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 ## whisper.cppがいつのまにかmacOS用文字起こしの決定版になっていた
 https://zenn.dev/muo/articles/ffa37618c0427f
 
@@ -337,6 +406,7 @@ https://zenn.dev/muo/articles/ffa37618c0427f
 
 >>>>>>> 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 >>>>>>> 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
+<<<<<<< HEAD
 >>>>>>> 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
 ||||||| parent of fae2397 (feat: Productivity Weekly(2024/01/17) by uta8a)
 =======
@@ -362,6 +432,11 @@ https://zenn.dev/muo/articles/ffa37618c0427f
 >>>>>>> 1fc6823 (feat: Productivity Weekly(2024/01/17) by uta8a)
 >>>>>>> 9483e5d (feat: Productivity Weekly(2024/01/17) by uta8a)
 >>>>>>> fae2397 (feat: Productivity Weekly(2024/01/17) by uta8a)
+||||||| parent of f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
+=======
+>>>>>>> 7fc0e12 (feat: Productivity Weekly(2024/01/17) by uta8a)
+>>>>>>> 74ce5c1 (feat: Productivity Weekly(2024/01/17) by uta8a)
+>>>>>>> f218c8f (feat: Productivity Weekly(2024/01/17) by uta8a)
 # read more 🍘
 Productivity Weekly で出たネタを全て紹介したいけど紹介する体力が持たなかったネタを一言程度で書くコーナーです。
 
