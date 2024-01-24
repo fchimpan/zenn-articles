@@ -44,10 +44,22 @@ https://aws.amazon.com/jp/about-aws/whats-new/2024/01/amazon-ecs-fargate-integra
 ## Our move to generated SDKs - The GitHub Blog
 https://github.blog/2024-01-03-our-move-to-generated-sdks/
 
+GitHub の[Go](https://github.com/octokit/go-sdk)と[.NET](https://github.com/octokit/dotnet-sdk)の SDK が OpenAPI の定義から[Kiota](https://github.com/microsoft/kiota)を用いて自動生成されるようになったようです。
+
+自分も今まで Kiota の名前は聞いたことがなかったのですが、Microsoft が OSS で開発している OpenAPI の定義ファイルから様々な言語のコードを生成するジェネレータのようです。興味がある方は[Kiotaのドキュメント](https://learn.microsoft.com/ja-jp/openapi/kiota/)を見てみると雰囲気が掴めるかもしれません。自分は QUICKSTART でいくつかの自分が使える言語のコードを見てみましたが、それぞれの言語ごとに API クライアントとして違和感のない使い方ができる印象でした。
+
+今回の GitHub の記事では、OpenAPI から SDK を生成することで REST API のカバレッジをほぼ 100%にできることで、今後は SDK をさらに良くすることに注力できると述べられています。
+今回の記事では Go と.NET にだけしか言及されておらず、他の言語の SDK が今後どうなるのかなどは全く触れられていませんでした。Go と.NET もそれぞれのリポジトリの README にはまだ"alpha"バージョンや stable ではないと書かれているので、それらも含めて今後に期待ですね。
+
+
+_本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
+
 # know-how 🎓
 
 ## GitHub Actionsのcomposite actionを使ってinternalリポジトリのファイルを配布する - Cybozu Inside Out | サイボウズエンジニアのブログ
 https://blog.cybozu.io/entry/2024/01/11/000000
+
+_本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
 
 ## AWSコンテナ系アーキテクチャの選択肢を最適化する | 外道父の匠
 https://blog.father.gedow.net/2024/01/12/aws-container-architecture-watershed/
@@ -71,6 +83,8 @@ https://zenn.dev/jambowrd/articles/3ee00f61c0b827
 
 ## whisper.cppがいつのまにかmacOS用文字起こしの決定版になっていた
 https://zenn.dev/muo/articles/ffa37618c0427f
+
+_本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
 
 # read more 🍘
 Productivity Weekly で出たネタを全て紹介したいけど紹介する体力が持たなかったネタを一言程度で書くコーナーです。
