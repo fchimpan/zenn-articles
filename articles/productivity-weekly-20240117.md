@@ -59,6 +59,12 @@ _本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
 ## GitHub Actionsのcomposite actionを使ってinternalリポジトリのファイルを配布する - Cybozu Inside Out | サイボウズエンジニアのブログ
 https://blog.cybozu.io/entry/2024/01/11/000000
 
+composite action を利用することで本来はデフォルトの `GITHUB_TOKEN` ではアクセスできない Internal リポジトリのファイルを配布する方法を紹介されている記事です。
+
+GitHub Actions では通常デフォルトの `GITHUB_TOKEN` の権限で `git clone` を行うため、Public リポジトリであれば他のリポジトリも clone できますが、Private リポジトリを clone できません。ここまでは通常の感覚通りですが、GitHub Enterprise Cloud の場合は Internal リポジトリという種類もあり、これは同じ Enterprise に所属するユーザーであれば誰でも READ 権限を持っています。いわば Enterprise 限定の Public リポジトリと言えるため、例えば会社の全員に利用してもらいたいようなソースコードの置き場として便利なのですが、実は GitHub Actions のデフォルトの `GITHUB_TOKEN` では Private 同様にアクセスはできません。
+
+この記事では `GITHUB_TOKEN` を使用する以外の方法の検討もしつつ、最終的に共有したいリポジトリを composite action として呼び出せるようにすることで他のリポジトリの GitHub Actions から `GITHUB_TOKEN` だけで必要なファイルにアクセスを可能にする方法を紹介しています。トリッキーな方法だとは思いますが、特にリポジトリを Public にしにくい業務用途では便利な場面がありそうです。
+
 _本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
 
 ## AWSコンテナ系アーキテクチャの選択肢を最適化する | 外道父の匠
