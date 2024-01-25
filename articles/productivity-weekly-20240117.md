@@ -87,11 +87,6 @@ https://zenn.dev/fraim/articles/98ad17f9ed140e
 ## eBPFを使った自動テストツール「Keploy」がすごい
 https://zenn.dev/jambowrd/articles/3ee00f61c0b827
 
-## whisper.cppがいつのまにかmacOS用文字起こしの決定版になっていた
-https://zenn.dev/muo/articles/ffa37618c0427f
-
-_本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
-
 # read more 🍘
 Productivity Weekly で出たネタを全て紹介したいけど紹介する体力が持たなかったネタを一言程度で書くコーナーです。
 
