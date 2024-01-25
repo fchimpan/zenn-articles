@@ -44,12 +44,12 @@ https://aws.amazon.com/jp/about-aws/whats-new/2024/01/amazon-ecs-fargate-integra
 ## Our move to generated SDKs - The GitHub Blog
 https://github.blog/2024-01-03-our-move-to-generated-sdks/
 
-GitHub の[Go](https://github.com/octokit/go-sdk)と[.NET](https://github.com/octokit/dotnet-sdk)の SDK が OpenAPI の定義から[Kiota](https://github.com/microsoft/kiota)を用いて自動生成されるようになったようです。
+OpenAPI の定義から[Kiota](https://github.com/microsoft/kiota)を用いて自動生成された GitHub の[Go](https://github.com/octokit/go-sdk)と[.NET](https://github.com/octokit/dotnet-sdk)の SDK が公開されました（現在はまだ unstable）。
 
-自分も今まで Kiota の名前は聞いたことがなかったのですが、Microsoft が OSS で開発している OpenAPI の定義ファイルから様々な言語のコードを生成するジェネレータのようです。興味がある方は[Kiotaのドキュメント](https://learn.microsoft.com/ja-jp/openapi/kiota/)を見てみると雰囲気が掴めるかもしれません。自分は QUICKSTART でいくつかの自分が使える言語のコードを見てみましたが、それぞれの言語ごとに API クライアントとして違和感のない使い方ができる印象でした。
+自分も今まで Kiota の名前は聞いたことがなかったのですが、Microsoft が OSS で開発している OpenAPI の定義ファイルから様々な言語のコードを生成するジェネレータのようです。興味がある方は[Kiotaのドキュメント](https://learn.microsoft.com/ja-jp/openapi/kiota/)を見てみると雰囲気が掴めるかもしれません。自分は QUICKSTART で自分が使えるいくつかの言語のコードを見てみましたが、それぞれの言語ごとに API クライアントとして違和感のない使い方ができる印象でした。
 
-今回の GitHub の記事では、OpenAPI から SDK を生成することで REST API のカバレッジをほぼ 100%にできることで、今後は SDK をさらに良くすることに注力できると述べられています。
-今回の記事では Go と.NET にだけしか言及されておらず、他の言語の SDK が今後どうなるのかなどは全く触れられていませんでした。Go と.NET もそれぞれのリポジトリの README にはまだ"alpha"バージョンや stable ではないと書かれているので、それらも含めて今後に期待ですね。
+今回の GitHub の記事では、OpenAPI から SDK を生成することで REST API のカバレッジをほぼ 100%にでき、今後は SDK をさらに良くすることに注力できると述べられています。
+今のところ Go と.NET にだけしか言及されておらず、他の言語の SDK が今後どうなるのかなどは全く触れられていませんでした。Go と.NET もそれぞれのリポジトリの README にはまだ"alpha"バージョンや stable ではないと書かれているので、それらも含めて今後に期待ですね。
 
 
 _本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
@@ -61,7 +61,7 @@ https://blog.cybozu.io/entry/2024/01/11/000000
 
 composite action を利用することで本来はデフォルトの `GITHUB_TOKEN` ではアクセスできない Internal リポジトリのファイルを配布する方法を紹介されている記事です。
 
-GitHub Actions では通常デフォルトの `GITHUB_TOKEN` の権限で `git clone` を行うため、Public リポジトリであれば他のリポジトリも clone できますが、Private リポジトリを clone できません。ここまでは通常の感覚通りですが、GitHub Enterprise Cloud の場合は Internal リポジトリという種類もあり、これは同じ Enterprise に所属するユーザーであれば誰でも READ 権限を持っています。いわば Enterprise 限定の Public リポジトリと言えるため、例えば会社の全員に利用してもらいたいようなソースコードの置き場として便利なのですが、実は GitHub Actions のデフォルトの `GITHUB_TOKEN` では Private 同様にアクセスはできません。
+GitHub Actions では通常デフォルトの `GITHUB_TOKEN` の権限で `git clone` を行うため、他のリポジトリも Public リポジトリであれば clone できますが、Private リポジトリを clone できません。ここまでは通常の感覚通りですが、GitHub Enterprise Cloud の場合はさらに Internal リポジトリという種類もあり、これは同じ Enterprise に所属するユーザーであれば誰でも READ 権限を持っています。いわば Enterprise 限定の Public と言えるため、例えば会社の全員に利用してもらいたいようなソースコードの置き場として便利なのですが、実は GitHub Actions のデフォルトの `GITHUB_TOKEN` では Private 同様にアクセスはできません。
 
 この記事では `GITHUB_TOKEN` を使用する以外の方法の検討もしつつ、最終的に共有したいリポジトリを composite action として呼び出せるようにすることで他のリポジトリの GitHub Actions から `GITHUB_TOKEN` だけで必要なファイルにアクセスを可能にする方法を紹介しています。トリッキーな方法だとは思いますが、特にリポジトリを Public にしにくい業務用途では便利な場面がありそうです。
 
