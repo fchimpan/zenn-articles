@@ -27,7 +27,7 @@ user_defined: {"publish_link": "https://zenn.dev/korosuke613/articles/productivi
 今週の共同著者は次の方です。
 - [@korosuke613](https://zenn.dev/korosuke613)
 <!-- - [@defaultcf](https://zenn.dev/defaultcf) -->
-<!-- - [@Kesin11](https://zenn.dev/kesin11) -->
+- [@Kesin11](https://zenn.dev/kesin11)
 <!-- - [@r4mimu](https://zenn.dev/r4mimu) -->
 <!-- - [@uta8a](https://zenn.dev/uta8a) -->
 
@@ -78,6 +78,19 @@ https://techtouch.hatenablog.jp/entry/qa_test_it_yourself
 
 ## 実録レガシーコード改善 / Working with Legacy Code: the True Record - Speaker Deck
 https://speakerdeck.com/twada/working-with-legacy-code-the-true-record
+
+初回：https://findy.connpass.com/event/304101/
+再放送：https://findy.connpass.com/event/307431/
+
+t-wada さんが過去に実際に経験された開発案件において、最初にどのようにテストコードを追加し、その後に立て続けにやってくる新規要件を TDD で実装していったかという内容でした。
+今回の題材は Lambda + Alexa スキルでしたが、利用するインフラや SDK からどのように疎結合にしてテストコードを書いていくかの考え方は他の開発にも通ずるはずです。
+
+個人的には多機能なテストフレームワークやツールを使うのではなく、コードの設計側を見直すことでシンプルにテストコードを書きやすくする今回のアプローチはとても同意できました。Productivity Weekly ではむしろそのようなツールを紹介する機会が多いですが、何でもそのようなツールで解決するのではなく基本に立ち戻ることも大事だと改めて感じました。
+
+スライドだけでも十分な情報量があるのですが、自分は生放送で見ていたのでやはりスライドでは伝わりきれない部分もあると感じました。アーカイブ動画が公開されるかはまだ不明ですが、もし公開されたらぜひ動画で見てほしいと思います。
+
+
+_本項の執筆者: [@Kesin11](https://zenn.dev/kesin11)_
 
 ## 雰囲気でbuildx/BuildKitを使っていたので調べました
 https://zenn.dev/fraim/articles/98ad17f9ed140e
