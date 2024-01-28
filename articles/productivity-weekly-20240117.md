@@ -130,11 +130,13 @@ _本項の執筆者: [@r4mimu](https://zenn.dev/r4mimu)_
 ## テストプロセスが自走するチーム体制をめざして QA が取り組んでいること - Techtouch Developers Blog
 https://techtouch.hatenablog.jp/entry/qa_test_it_yourself
 
-Four Keys の Elite チームに向かうためには...？という目線で、チーム体制が刻々と変化するという固有の事情も踏まえて、E2E テスト改善をしていくために QA チームがチームトポロジーの用語で言うイネーブリングチームとして機能するようになるための取り組みが語られています。
+Four Keys の Elite チーム[^elite]に向かうためには...？という目線で、チーム体制が刻々と変化するという固有の事情も踏まえて、E2E テスト改善をしていくために QA チームがチームトポロジーの用語で言うイネーブリングチームとして機能するようになるための取り組みが語られています。
 
 Four Keys の文脈では CI/CD 高速化等のビルドパイプラインの改善の話が出てくることが多いので、品質保証観点からの記事は珍しいと感じました。組織の話、テストマネジメントツールの導入など取り組みの全体像が見えて面白かったです。
 
 _本項の執筆者: [@uta8a](https://zenn.dev/uta8a)_
+
+[^elite]: 平木場注: DORA のレポートによると Four Keys ではチームのパフォーマンスによって Elite、High、Medium、Low の 4 つのグループに分類できる。もっともパフォーマンスの高いチーム群が Elite とされる。2023 年の State of DevOps Report においては、変更のリードタイムが 1 日以内、デプロイの頻度がオンデマンド（毎日複数回）、変更のエラー率が 5% 以下、デプロイ失敗の復旧までの時間が 1 時間以内のチームが Elite とされている。https://cloud.google.com/blog/ja/products/devops-sre/announcing-the-2023-state-of-devops-report
 
 ## 実録レガシーコード改善 / Working with Legacy Code: the True Record - Speaker Deck
 https://speakerdeck.com/twada/working-with-legacy-code-the-true-record
